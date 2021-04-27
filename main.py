@@ -1,5 +1,6 @@
 play = "y"
 import random
+import emoji
 while play == "y":
     print("...rock...")
     print("...paper...")
@@ -25,5 +26,5 @@ while play == "y":
     print("")
     play = input("Another round?(y/n) ")
     if play == "n":
-        print("Bye-bye")
+        print("Bye-bye", "\U0001F61E")
     print("")
