@@ -24,4 +24,6 @@ while play == "y":
         print("You win!")
     print("")
     play = input("Another round?(y/n) ")
+    if play == "n":
+        print("Bye-bye")
     print("")
